@@ -1,0 +1,45 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.frontImage {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  overflow: hidden;
+  z-index: 1;
+}
+.head {
+  background-image: linear-gradient(to bottom right, blue, rgb(84, 36, 129));
+  opacity: 0.65;
+  border-radius: 12px;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 108px;
+  color: white;
+  padding: 14px;
+}
+
+@media only screen and (max-width: 900px) {
+  .frontImage {
+    height: 50%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .head {
+    position: absolute;
+    opacity: 1;
+    bottom: 50%;
+    left:0;
+    min-width:50%;
+    color: rgb(243, 198, 181);
+    font-size: 14px;
+  }
+}

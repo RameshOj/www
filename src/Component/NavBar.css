@@ -1,0 +1,38 @@
+.navbar {
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    background-image: linear-gradient(to bottom right, blue, rgb(84, 36, 129));
+    z-index: 20;
+  }
+  .header {
+    height: 55px;
+    width: auto;
+    margin: auto;
+    float: left;
+  }
+  .anchor {
+    text-align: center;
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    padding: 6px;
+    margin: 12px;
+    font-size: 20px;
+  }
+  .navlinks {
+    height: 55px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media only screen and (max-width: 597px) {
+    .navbar {
+      height: 110px;
+      width: 100%;
+    }
+  }
