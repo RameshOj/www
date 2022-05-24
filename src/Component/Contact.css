@@ -68,6 +68,11 @@
     flex-direction: column;
 }
 
+.number{
+    font-size: 20px;
+    color: red;
+}
+
 @media only screen and (max-width: 715px) { 
     .finalImage{
         height: 780px;
@@ -80,5 +85,9 @@
         color: blue;
         font-size: 8px;
         font-weight: 800;
+    }
+    .number{
+        font-size: 12px;
+        color: red;
     }
 }

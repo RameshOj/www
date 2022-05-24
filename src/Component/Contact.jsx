@@ -20,8 +20,8 @@ class Contact extends Component {
               <h4>Laundry Service, Varanasi, UttarPradesh India</h4>
               <br />
               <p>
-                You can also contact us by phone 9140375915 or 7275320386, or
-                you can send us a message here:
+                You can also contact us by phone <br/><b className="number">&#128222; +91-9140375915 </b> or
+                <b className="number"> &#128222; +91-7275320386 </b>, or you can send us a message here:
               </p>
               <input class="input" placeholder="Name" />
               <input class="input" placeholder="What age person" />

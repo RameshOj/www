@@ -33,7 +33,6 @@ color: orangered;
 .menuContainer{
     flex-direction: column;
     height:auto;
-    margin-bottom: 20px;
 }.menuText{
     width: calc(100% - 8px);
     height:650px;
@@ -46,6 +45,5 @@ color: orangered;
 }
 .two{
     margin: 10px;
-
 }
 }
