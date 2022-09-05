@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This Project is for My Friends Business Support. It's Version 2 is deployed now.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An Laundry and Dry Cleaning Landing Page.
 
 ## Available Scripts
 
